@@ -1,0 +1,41 @@
+/* WRAP*/
+.blda-wrapper {
+    display: table;
+    width: 100%;
+}
+
+.blda-wrapper #content {
+    min-width: 800px;
+}
+
+.blda-wrapper #sidebar {
+    padding: 0 0 0 20px;
+    width: 280px;
+}
+
+.blda-wrapper #sidebar .sidebar_box {
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+    min-width: 255px;
+    line-height: 1;
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+.blda-wrapper #sidebar .sidebar_box h3 {
+    margin: 0;
+    padding: 8px 12px;
+    border-bottom: 1px solid #ececec;
+}
+
+.blda-wrapper #sidebar .sidebar_box .inside {
+    margin: 6px 0 0;
+    font-size: 13px;
+    line-height: 1.4em;
+    padding: 0 12px 12px;
+}
+
+.blda-wrapper .wrapper-cell {
+    display: table-cell;
+}
